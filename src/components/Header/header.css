@@ -1,0 +1,38 @@
+.header {
+    margin: 0 2.5rem;
+    padding: .5rem 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__left,
+.header__right {
+    display: flex;
+    align-items: center;
+
+}
+
+.header__link {
+    text-decoration: none;
+}
+
+a>span {
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+
+a>span:hover {
+    color: red;
+}
+
+.header__logo {
+    width: 80px;
+    cursor: pointer;
+}
+
+.user__avatar {
+    font-size: 2rem;
+}
